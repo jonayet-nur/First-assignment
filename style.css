@@ -14,12 +14,19 @@
     color: #ffffff;
     border: none;
     border-radius: 4px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #e4853d;
+    color: #ffffff;
+    transition: 0.6s ease-in-out;
+    transform: scale(1.2);
 }
 
 .section-heading{
     max-width: 827px;
     text-align: center;
-    margin: 0 auto; /*skill content middle e jawer jonno*/
+    margin: 0 auto; 
 }
 .section-heading h2{
     margin-top: 30px;
@@ -60,10 +67,6 @@ nav .menu a{
 
 #hero{
     max-width: 1590px;
-    /* height: 674px; */
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
     padding: 115px 120px 179px 120px;
     background:url(images/hero-bg.png);
 }
@@ -86,6 +89,12 @@ nav .menu a{
     text-align: center;
     margin: 0 auto;
     
+}
+.spn:hover{
+    color: #F7F6F2;
+    background-color: #e4853d;
+    transition: 0.3s ease-out;
+    transform: scale(1.2);
 }
 .hero-content h1{
     color: #ffffff;
@@ -112,6 +121,7 @@ nav .menu a{
     font-size: 16px;
     margin-right: 16px;
     border-radius: 4px;
+    cursor: pointer;
 }
 .btn2{
     color: #000000;
@@ -119,13 +129,16 @@ nav .menu a{
     border: none;
     font-size: 16px;
     border-radius: 4px;
+    cursor: pointer;
     
 }
 
-.btn1:hover ,
-.btn:hover{
+.btn1:hover 
+{
     background-color: #e4853d;
     color: #ffffff;
+    transition: 0.5s ease-in-out;
+    transform: scale(1.2);
 }
 
 .btn2:hover{
@@ -229,7 +242,7 @@ img-cotainer img{
 .ready-heading{
     max-width: 827px;
     text-align: center;
-    margin: 0 auto; /*skill content middle e jawer jonno*/
+    margin: 0 auto; 
 }
 .ready-heading h2{
     font-size: 40px;
