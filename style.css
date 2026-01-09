@@ -251,3 +251,38 @@ img-cotainer img{
     margin-bottom: 30px;
     padding-bottom: 80px;
 }
+
+footer{
+    background-color: #001931;
+}
+.footer-container{
+    padding: 120px 120px 30px;
+}
+.footer-container .social-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon h5{
+    color: #F7F6F2;
+    font-size: 20px;
+    margin-bottom: 16px;
+
+}
+.icon a{
+    padding: 4px;
+    background-color: #F7F6F2;
+    border-radius: 20px;
+}
+ .footer-container hr{
+    margin-top: 50px;
+    border: 1px solid #627382;
+ }
+
+ .footer-container p{
+    text-align: center;
+    margin-top: 30px;
+    /* margin-bottom: 30px; */
+    color: #FAFAFA;
+    font-size: 16px;
+ }
