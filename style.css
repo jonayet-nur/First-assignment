@@ -16,6 +16,24 @@
     border-radius: 4px;
 }
 
+.section-heading{
+    max-width: 827px;
+    text-align: center;
+    margin: 0 auto; /*skill content middle e jawer jonno*/
+}
+.section-heading h2{
+    margin-top: 30px;
+    color: #001931;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+.section-heading p{
+    font-size: 16px;
+    color: #627382;
+    line-height: 20px;
+    margin-bottom: 44px;
+}
 
 nav{
     max-width: 1270px;
@@ -115,3 +133,85 @@ nav .menu a{
     color: #ffffff;
     font-size: 20px;
 }
+
+#failure{
+    padding:0 120px ;
+}
+#failure .failure-container{
+    max-width: 1360px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+#failure .failure-container .failure-box{
+    display: flex;
+    gap: 24px;
+    
+    
+}
+.failure-box .failure-card{
+    padding: 24px; 
+    box-shadow: 0 6px 50px 0 #00000013;
+    max-width: 322px; 
+    border-radius: 8px;
+    text-align: center;
+    
+}
+
+.failure-card img{
+    background-color: #F95555;
+    border-radius: 50px;
+    padding: 10px ;
+    
+}
+
+.failure-card h3{
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #000000;
+}
+.failure-card p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #627382;
+}
+ #section{
+    padding: 120px;
+ }
+#section .section-container{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    margin: 0 auto;
+}
+.section-container .right-content{
+    max-width: 700px;
+}
+.right-content ul li{
+    list-style: none;
+    /* margin-left: 30px; */
+    margin-bottom: 16px;
+    color: #001931;
+    font-size: 16px;
+
+}
+.right-content span{
+    color: #469165;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+img-cotainer img{
+    max-width: 600px;
+}
+.right-content h2{
+    font-size: 48px;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.right-content p{
+    color: #627382;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+
+ 
